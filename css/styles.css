@@ -1,0 +1,87 @@
+body {
+  font-family: 'Work Sans', sans-serif;
+}
+
+.content {
+  min-height: 70vh;
+  min-height: -webkit-calc(100vh - 172px);
+  min-height: -moz-calc(100vh - 172px);
+  min-height: calc(100vh - 172px);
+}
+
+@media screen and (max-width: 768px) {
+  .content {
+    min-height: -webkit-calc(100vh - 396px);
+    min-height: -moz-calc(100vh - 396px);
+    min-height: calc(100vh - 396px);
+  }
+}
+
+/* Navigation */
+#logo {
+  width: 150px;
+}
+
+#kickstarter-nav-btn {
+  border-radius: 2px;
+  background-color: #034752;
+}
+
+/* Home */
+#home {
+  /* height: calc(100vh - 123.52px); */
+}
+
+/* About */
+
+
+/* Contact */
+.contact-other-method-list {
+  list-style-type: none;
+}
+
+/* Footer */
+footer {
+  font-size: .7em;
+}
+
+.footer-links ul li {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.footer-links li a {
+  width: 100%;
+}
+
+.footer-contact ul li {
+  list-style-type: none;
+}
+
+/* FAQ */
+#question-list {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+/* The Standard 4x5 */
+/* Gallery */
+@media screen and (max-width: 768px) {
+  .gallery-image {
+    margin-top: 15px;
+  }
+}
+
+#standard-asterisk {
+  font-size: .9em;
+}
+
+/* Testimonials */
+#testimonial-list ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.testimonial-gallery-image {
+  margin-top: 15px;
+}
